@@ -1,0 +1,13 @@
+.trendingListContainer{
+    background-color: grey;
+    padding: 1rem;
+    text-align: center;
+}
+
+.trendingListContainer h3{
+    margin: 0;
+}
+
+.trendingListContainer .songList{
+    margin-top: 1rem;
+}

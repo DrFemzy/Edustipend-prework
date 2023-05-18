@@ -1,0 +1,23 @@
+.container{
+    width: 90%;
+    margin: auto;
+    outline: 1px solid grey;
+    padding: 2rem 1rem;
+    background: rgb(236, 236, 236);
+}
+
+.heroSection{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heroSection .heroText{
+    padding: 2rem;
+}
+
+.heroSection .heroText h1{
+    padding: 0;
+    margin: 0;
+}
