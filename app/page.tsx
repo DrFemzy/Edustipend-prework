@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Link from 'next/link'
 import styles from './page.module.css'
 import MockDesign from './MockDesign'
 import Button from './components/Button'
@@ -28,6 +28,14 @@ export default function Home() {
         <h5>Nav Bar</h5>
         <Navbar />
         <hr />
+        <hr />
+        <h4>Task 3</h4>
+        <p>Push your code to GitHub and provide us with the link to the code, so we can review it.</p>
+        <hr />
+        <ul>
+          <Link href={"https://github.com/DrFemzy/Edustipend-prework.git"}>GitHub </Link> <br />
+          <Link href={"https://edustipend-prework-eight.vercel.app/"}>Live Link</Link>
+        </ul>
       </div>
     </>
   )
